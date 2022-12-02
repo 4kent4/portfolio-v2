@@ -1,0 +1,85 @@
+#header {
+	position: relative;
+	line-height: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.txt-container {
+	min-width: 80%;
+	min-height: 80%;
+	z-index: 1;
+	color: aliceblue;
+	border-radius: 10px;
+	/* background: rgba(0, 0, 0, 0.2); */
+	padding: 20px;
+}
+
+.intro {
+	display: inline;
+}
+
+h1,
+h3 {
+	font-weight: 100;
+	text-align: start;
+}
+.help {
+	color: #fc7544;
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+
+.bfly {
+	animation: blink 1s infinite;
+	font-size: 1.5rem;
+}
+
+@keyframes blink {
+	0% {
+		color: #f0a400;
+	}
+	50% {
+		color: #fc7544;
+	}
+	100% {
+		color: #f0a400;
+	}
+}
+
+.my-name {
+	color: #f0a400;
+}
+
+.H-light {
+	color: #f0a400;
+}
+
+.cv-con {
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.cv {
+	border: 1px solid #f0a400;
+	padding: 10px;
+	border-radius: 10px;
+	color: aliceblue;
+	transition: ease, 0.3s;
+	font-weight: 200;
+}
+
+.cv:hover {
+	border: 1px solid aliceblue;
+	color: #f0a400;
+}
+
+@media screen and (max-width: 480px) {
+	.help {
+		font-size: 1.6rem;
+		line-height: 2.2rem;
+	}
+}

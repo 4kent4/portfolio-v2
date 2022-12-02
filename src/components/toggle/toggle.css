@@ -1,0 +1,47 @@
+.nav-toggle {
+	position: fixed;
+	top: 3%;
+	right: 4%;
+	z-index: 2;
+	height: 7%;
+}
+
+.arrow-con {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrow-icon {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.2rem;
+	transition: ease, 0.2s;
+	color: white;
+}
+
+.arrow-clicked {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.2rem;
+	transition: ease, 0.2s;
+	color: #f0a400;
+}
+
+.arrow-icon:hover {
+	scale: 1.1;
+	cursor: pointer;
+}
+
+.arrow-clicked:hover {
+	scale: 1.1;
+	cursor: pointer;
+}
