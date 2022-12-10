@@ -10,7 +10,7 @@
 	min-width: 80%;
 	min-height: 80%;
 	z-index: 1;
-	color: aliceblue;
+	color: var(--something-white);
 	border-radius: 10px;
 	/* background: rgba(0, 0, 0, 0.2); */
 	padding: 20px;
@@ -26,7 +26,7 @@ h3 {
 	text-align: start;
 }
 .help {
-	color: #fc7544;
+	color: var(--highlight-color-dark);
 	font-size: 2rem;
 	line-height: 2.4rem;
 }
@@ -49,11 +49,11 @@ h3 {
 }
 
 .my-name {
-	color: #f0a400;
+	color: var(--highlight-color);
 }
 
 .H-light {
-	color: #f0a400;
+	color: var(--highlight-color);
 }
 
 .cv-con {
@@ -64,17 +64,17 @@ h3 {
 }
 
 .cv {
-	border: 1px solid #f0a400;
+	border: 1px solid var(--highlight-color);
 	padding: 10px;
 	border-radius: 10px;
-	color: aliceblue;
+	color: var(--something-white);
 	transition: ease, 0.3s;
 	font-weight: 200;
 }
 
 .cv:hover {
-	border: 1px solid aliceblue;
-	color: #f0a400;
+	border: 1px solid var(--something-white);
+	color: var(--highlight-color-dark);
 }
 
 @media screen and (max-width: 480px) {

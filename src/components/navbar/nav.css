@@ -3,7 +3,8 @@
 	top: 10%;
 	right: 4%;
 	z-index: 2;
-	background: linear-gradient(90deg, #fc7544, #f0a400);
+	/* background: linear-gradient(90deg, #fc7544, #f0a400); */
+	background: transparent;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -13,26 +14,26 @@
 }
 
 .nav-icon {
-	color: #f0a400;
+	color: var(--something-white);
 	margin: 3px 5px;
 	padding: 5px;
-	background: rgb(0, 0, 0);
+	background: black;
 	border-radius: 50%;
 	transition: ease, 0.4s;
 }
 
 .active {
-	color: black;
+	color: var(--background-color-con);
 	margin: 3px 5px;
 	padding: 5px;
-	background: white;
+	background: var(--something-white);
 	border-radius: 50%;
 	transition: ease, 0.4s;
 }
 
 .nav-icon:hover {
-	color: rgb(0, 0, 0);
-	background: aliceblue;
+	color: var(--background-color-con);
+	background: var(--something-white);
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {

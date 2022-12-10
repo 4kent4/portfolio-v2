@@ -8,6 +8,20 @@
 	text-decoration: none;
 }
 
+:root {
+	--section-title: #fc7544;
+	--background-color: linear-gradient(#50aaaa, #1b5555);
+	--background-color-op: linear-gradient(#1b5555, #50aaaa);
+	--highlight-color-dark: #ec8a00;
+	--highlight-color: #ecbe23;
+	--something-white: white;
+	--port-sec-only: linear-gradient(#1b5555, #10212a);
+	--about-sec-only: linear-gradient(#10212a, #1b5555);
+	--container-color: radial-gradient(ellipse at top, #10212a, transparent),
+		radial-gradient(ellipse at bottom, #1b5555, transparent);
+	--outline-color: #f0a40043;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -24,6 +38,10 @@ body {
 .section {
 	min-height: 100vh;
 	min-width: 100vw;
+}
+
+.section-title {
+	color: var(--section-title);
 }
 
 #tsparticles {

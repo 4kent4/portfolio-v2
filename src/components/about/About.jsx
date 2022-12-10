@@ -1,5 +1,5 @@
 import './about.css';
-import Me from '../../assets/Me.jpg';
+import Me from '../../assets/Me.png';
 import { SiFramer } from 'react-icons/si';
 import { FcMultipleDevices } from 'react-icons/fc';
 import { GiPlainArrow } from 'react-icons/gi';
@@ -7,7 +7,7 @@ import { GiPlainArrow } from 'react-icons/gi';
 const About = () => {
 	return (
 		<section className='section' id='about'>
-			<h2 className='about-me'>About Me</h2>
+			<h2 className='about-me section-title'>About Me</h2>
 			<div className='about-container'>
 				<div className='about-context'>
 					<p>

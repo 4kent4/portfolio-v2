@@ -1,7 +1,7 @@
 #contact {
-	background: #1e1d19;
 	text-align: center;
 	padding: 10px;
+	background: #10212a;
 }
 
 .contact-container {
@@ -36,7 +36,7 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 5%;
-	color: #fc7544;
+	color: var(--highlight-color-dark);
 }
 
 .info-box {
@@ -44,16 +44,19 @@
 	align-items: center;
 	margin-bottom: 5%;
 	padding: 2%;
+	transition: ease 0.4s;
+	border-radius: 20px;
 }
 
 .info-box:hover {
 	border-radius: 20px;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-	outline: 1px rgba(0, 0, 0, 0.4) solid;
+	background: var(--container-color);
+	outline: solid 1px var(--outline-color);
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
 }
 .info-icon {
 	font-size: 40px;
-	color: #f0a400;
+	color: var(--highlight-color);
 	margin-right: 10%;
 	display: flex;
 	align-items: center;
@@ -65,7 +68,7 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 4%;
-	color: #fc7544;
+	color: var(--highlight-color-dark);
 }
 
 form {
@@ -80,7 +83,7 @@ form input {
 	width: 100%;
 	padding: 0.5rem;
 	border-radius: 10px;
-	border: solid 1px #f0a400;
+	border: solid 1px var(--outline-color);
 }
 
 textarea {
@@ -88,23 +91,23 @@ textarea {
 	resize: none;
 	padding: 0.5rem;
 	border-radius: 10px;
-	border: solid 1px #f0a400;
+	border: solid 1px var(--outline-color);
 	display: block;
 }
 
 .submit-btn {
-	border: 1px solid #f0a400;
+	border: 1px solid var(--highlight-color);
 	padding: 10px;
 	border-radius: 10px;
-	color: aliceblue;
+	color: var(--something-white);
 	transition: ease, 0.3s;
 	font-weight: 200;
 	background: transparent;
 }
 
 .submit-btn:hover {
-	border: 1px solid aliceblue;
-	color: #f0a400;
+	border: 1px solid var(--something-white);
+	color: var(--highlight-color-dark);
 }
 
 @media screen and (max-width: 768px) {

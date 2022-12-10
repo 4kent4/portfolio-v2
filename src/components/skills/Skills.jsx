@@ -23,9 +23,9 @@ const Skills = () => {
 	};
 
 	return (
-		<section id='skills'>
+		<section id='skills' className='section'>
 			<div className='skills-tittle-con'>
-				<h2>My Skills</h2>
+				<h2 className='section-title'>My Skills</h2>
 				<div className='skills-pic-con'>
 					<Button filter={filter} button={button} setButton={setButton} />
 					<Menu menuItem={menuItem} />

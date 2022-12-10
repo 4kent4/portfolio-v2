@@ -30,7 +30,7 @@ const Particle = () => {
 							},
 						},
 						color: {
-							value: '#f0a400a1',
+							value: '#ecbe23',
 						},
 						shape: {
 							type: 'circle',
@@ -128,7 +128,7 @@ const Particle = () => {
 					},
 					retina_detect: true,
 					background: {
-						color: '#1b1a17',
+						color: '#10212a',
 						image: '',
 						position: '50% 50%',
 						repeat: 'no-repeat',

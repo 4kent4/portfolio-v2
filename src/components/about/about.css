@@ -1,7 +1,7 @@
 #about {
-	background: #1e1d19;
 	text-align: center;
 	padding: 10px;
+	background: var(--about-sec-only);
 }
 
 .about-container {
@@ -30,7 +30,7 @@
 
 .contribute-title {
 	margin: 3% auto;
-	color: aliceblue;
+	color: var(--something-white);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -38,7 +38,7 @@
 
 .con-con {
 	margin: 2% 13%;
-	color: aliceblue;
+	color: var(--something-white);
 	font-size: 80%;
 	font-weight: 200;
 	height: 200px;
@@ -48,8 +48,9 @@
 	justify-content: space-evenly;
 	align-items: center;
 	border-radius: 20px;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: var(--container-color);
+	border: solid 1px #f0a40043;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .me-pic {
@@ -59,35 +60,36 @@
 .me-pic img {
 	height: 300px;
 	width: 300px;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 .about-context {
 	padding: 5%;
 	text-align: start;
-	color: aliceblue;
+	color: var(--something-white);
 	font-weight: 200;
 	font-size: 80%;
 	display: flex;
 	align-items: center;
 	line-height: 1.4rem;
 	border-radius: 20px;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	background: var(--container-color);
+	border: solid 1px #f0a40043;
+	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .highlight {
-	color: #f0a400;
+	color: var(--highlight-color-dark);
 	font-size: 100%;
 }
 
 .h-light-title {
-	color: #f0a400;
+	color: var(--highlight-color-dark);
 }
 
 .contribute {
-	color: #fc7544;
+	color: var(--highlight-color-dark);
 	margin: 8% auto 3% auto;
 }
 
@@ -115,7 +117,6 @@
 	.me-pic img {
 		height: 200px;
 		width: 200px;
-		border-radius: 20%;
 	}
 
 	.arrowdown {
